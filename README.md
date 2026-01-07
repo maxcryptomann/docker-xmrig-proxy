@@ -28,3 +28,5 @@ docker run -d \
 | RETRY_SWITCH_POOL | 2 | Number of retries before switching to backup server |
 | RETRY_TIMEOUT_SECONDS | 1 | Pause between retries in seconds |
 | CUSTOM_DIFF | (empty) | Custom difficulty for miners (only applied if set) |
+| CUSTOM_DIFF_STATS | (empty) | Enable custom difficulty for statistics (true/false, only applied if set) |
+| ALGO | (empty) | Mining algorithm (only applied if set) |
